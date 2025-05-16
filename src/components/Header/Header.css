@@ -1,7 +1,47 @@
-.header{
-  background-color:#312f29;
+.header {
+  background-color:#ebeeef;
   text-align: center;
-  img{
-    height: 90px;
+
+
+  img {
+    height: 120px;
+    padding: 20px;
+  }
+}
+
+.nav-section {
+  background-color: #000000;
+}
+
+.header .nav-bar {
+
+  font-size: 1.3rem;
+  text-align: start;
+  margin-left: 18px;
+}
+
+.header .nav-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+.header .nav-bar a:hover {
+  text-decoration: underline;
+  background-color: rgb(39, 35, 35);
+}
+
+@media screen and (max-width:640px) {
+  .header .nav-bar {
+    font-size: .9rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .header .nav-bar {
+    font-size: .8rem;
+    text-align: center;
   }
 }

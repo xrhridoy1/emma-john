@@ -1,0 +1,15 @@
+.shop-section{
+  display: flex;
+  background-color: #ebeeef;
+}
+.card-container{
+  position: sticky;
+  top: 10px;
+  height: 100vh;
+}
+.product-main{
+  width: 70%;
+  margin: 0 5px 0 30px;
+  border-right: 1px solid lightgray;
+
+}
